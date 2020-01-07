@@ -1,0 +1,122 @@
+body {
+  box-sizing: border-box;
+  /* background-color: #d9eeec; */
+  background-size: cover;
+  background: rgb(45,44,70);
+  background: linear-gradient(139deg, rgba(45,44,70,1) 0%, rgba(217,239,236,1) 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  /* font-size: 17px; */
+  /* text-align: center; */
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+i {
+  font-size: 35px;
+  color: #68696B;
+  transition: .4s;
+}
+
+.fa-github-square:hover {
+  color: #333;
+}
+
+.fa-twitter-square:hover {
+  color: #38A1F3;
+}
+
+.fa-linkedin:hover {
+  color: #2867B2;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #F7F7F7;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+.profile_picture {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.btn-projects {
+  background-color: #64B3CD;
+  color: #222222;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-projects:hover {
+  background-color: #D9EFEC;
+  color: #362724;
+}
+
+.btn-follow_me {
+  font-size: 22px;
+  font-style: italic;
+  color: #3c70a4;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
