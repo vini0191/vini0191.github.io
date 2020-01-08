@@ -8,9 +8,13 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   /* font-size: 17px; */
   /* text-align: center; */
+}
+
+hr {
+  margin: 30px;
 }
 
 h1, h2 {
@@ -20,11 +24,13 @@ h1, h2 {
 
 h1 {
   font-style: italic;
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 1.5em;
 }
 
 h2 {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 0.8em;
 }
 
 a {
@@ -66,6 +72,8 @@ i {
 
 .description {
   margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 1.2em;
 }
 
 .profile_picture {
@@ -73,14 +81,22 @@ i {
   border-radius: 50%;
 }
 
-.btn-projects {
+.email {
+  display: block;
+  margin-top: 50px;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+.btn-resume {
   background-color: #64B3CD;
   color: #222222;
   text-transform: uppercase;
   padding: 15px 20px;
   border-radius: 4px;
 }
-.btn-projects:hover {
+.btn-resume:hover {
   background-color: #D9EFEC;
   color: #362724;
 }
